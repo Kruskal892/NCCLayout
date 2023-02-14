@@ -26,6 +26,9 @@
   background-color: #5c5c5c;
   color: #fff;
 }
+.sidebar__item:hover a{
+    color: #fff;
+}
 
 .content{
     width: var(--content-width);
@@ -39,7 +42,7 @@
 
 .content__decs{
     background-color: #EFEFEF;
-    margin: 0 9rem;
+    margin: 30px 9rem 0 9rem;
     padding: 0 269px;
     text-align: center;
 }
