@@ -1,0 +1,23 @@
+/* CSS VARIABLES */
+:root{
+    --side-bar-width: 150px;
+    --content-width: calc(100% - var(--side-bar-width));
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: default;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
